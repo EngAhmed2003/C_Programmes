@@ -14,13 +14,13 @@ int main(void)
 	float Q ; // Q is the User Choice
 	double pi=3.141592653589793; // pi is ╥
 
-	printf("Enter The Radius :") ; // Used for display to the user
-	fflush(stdout) ; // Used to organize code
+	printf("Enter The Radius :\n") ; // Used for display to the user
+	fflush(stdin) ; fflush(stdout) ; // Used to organize code
 	scanf("%f",&R) ; // Used to Used to take input from the user and put it in the address of Y
 
-	printf("a to print area,c to print circumference") ;
-	fflush(stdout) ;
-	scanf(" %c",&Y) ;
+	printf("a to print area,c to print circumference\n") ;
+	fflush(stdin) ; fflush(stdout) ;
+	scanf("%c",&Y) ;
 
 	if (Y=='a') // if User chose (a) Execute if the condition
 	{
